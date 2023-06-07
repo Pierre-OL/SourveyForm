@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(
+      rgba(127, 158, 255, 0.8),
+      rgba(255, 0, 127, 0.5)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+}
+
+header {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+
+header > p {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#title {
+  font-size: 1.8em;
+  font-weight: 400;
+}
+
+#description {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+#survey-form {
+  width: 100vw;
+  max-width: 500px;
+  min-width: 300px;
+  padding-bottom: 2em;
+  margin: 0 auto;
+  background-color: #1b1b3295;
+  color: #fff;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input {
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  height: 2.5rem;
+  background-color: rgba(230, 60, 70, 0.7);
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  background-color: coral;
+}
+
+button:active {
+  background-color: tomato;
+  transition: 0.1ms;
+}
+
+#dropdown,
+#favorite {
+  color: gray;
+}
